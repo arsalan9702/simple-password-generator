@@ -20,7 +20,7 @@ A simple and customizable command-line password generator written in Go using th
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/arsalan9702/simple-password-generator.git
 cd passwordGenerator
 ```
 
@@ -133,22 +133,6 @@ GOOS=darwin GOARCH=amd64 go build -o passwordGenerator-mac
 go test ./...
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## Security Note
 
 This password generator uses Go's `math/rand` package, which is suitable for general use but not cryptographically secure. For cryptographically secure passwords, consider using `crypto/rand` instead.
-
-## License
-
-This project is open source. Please add your preferred license.
-
-## Author
-
-Add your name and contact information here.
